@@ -28,6 +28,9 @@
  * Motor Voltage = 24 V
  */
  
+ // I think I can consider the A-model complete as of 2022-09-24.
+ // I will move on to the B-model after fixing up the mechanical systems first.
+ 
 #include <stdint.h>
 #include <LiquidCrystal.h>
 
