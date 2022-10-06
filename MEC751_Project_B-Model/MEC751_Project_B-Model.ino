@@ -1,24 +1,18 @@
 /*
- * This is the first prototype
- * It will do only a few things. 
- * 
- * 1. Read the resistance value
- * 2. Map it to a distance from 5 cm to 20 cm
- * 3. Begin moving the shuttle
- * 4. Take continuous measurements of position. These are printed to Serial or LCD
- * 5. Stop once it reaches desired position. Maybe do some statistical analysis (running average)
- * 6. Display resistance and distance on Serial or LCD
- * 
+ * This is the B-Model
+ * It will have some changes compared to the A-model.
+ *
  * Things I can add:
  * - Calibration procedure
  * - States
  * - PID
- * - Speed control?
+ * - Speed control (needed for PID)
  * - Resistor Ranges
  * - LEDs
  * - A start button
  * - Safety limit switches?
  * - Throw errors
+ * - Statistics on position?
  * 
  * Parameters:
  * Shuttle Distance: 5 - 20 cm
